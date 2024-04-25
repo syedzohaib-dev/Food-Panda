@@ -283,24 +283,25 @@
 }
 
 .card-body-2 {
-    width: 85%;
+    width: 90%;
     height: 2200px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .card-1 {
-    width: 410px;
-    height: 320px;
+    width: 360px;
+    height: 300px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
 .img-1 {
-    width: 410px;
-    height: 220px;
+    width: 360px;
+    height: 200px;
     background-image: url(./assets/img-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -310,7 +311,7 @@
 }
 
 .card-data-1 {
-    width: 410px;
+    width: 360px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -318,7 +319,7 @@
 }
 
 .card-data-2 {
-    width: 90%;
+    width: 100%;
     height: 90px;
 }
 
@@ -368,8 +369,8 @@
 }
 
 .img-2 {
-    width: 410px;
-    height: 220px;
+    width: 360px;
+    height: 200px;
     background-image: url(./assets/img-2.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -379,8 +380,8 @@
 }
 
 .img-3 {
-    width: 410px;
-    height: 220px;
+    width: 360px;
+    height: 200px;
     background-image: url(./assets/img-3.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -390,8 +391,8 @@
 }
 
 .img-4 {
-    width: 410px;
-    height: 220px;
+    width: 360px;
+    height: 200px;
     background-image: url(./assets/img-4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
